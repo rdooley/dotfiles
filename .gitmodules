@@ -1,27 +1,9 @@
 [submodule "zsh/oh-my-zsh.symlink"]
 	path = zsh/oh-my-zsh.symlink
 	url = git://github.com/robbyrussell/oh-my-zsh.git
-[submodule "awesome/config.symlink/awesome/vicious"]
-	path = Linux/config.symlink/awesome/vicious
-	url = git@github.com:Mic92/vicious
-[submodule "awesome/config.symlink/awesome/awesome.battery-widget"]
-	path = Linux/config.symlink/awesome/awesome.battery-widget
-	url = git@github.com:coldfix/awesome.battery-widget.git
-[submodule "awesome/config.symlink/awesome/stock-widget"]
-	path = Linux/config.symlink/awesome/stock-widget
-	url = git@github.com:whwright/stock-widget.git
+[submodule "awesome/config.symlink/awesome/themes/o-dools"]
+	path = Linux/config.symlink/awesome/themes/o-dools
+	url = git@github.com:rdooley/o-dools
 [submodule "zsh/zsh-git-prompt.symlink"]
 	path = zsh/zsh-git-prompt.symlink
 	url = git@github.com:starcraftman/zsh-git-prompt.git
-[submodule "python/terminal_velocity"]
-	path = python/terminal_velocity
-	url = git@github.com:whwright/terminal_velocity.git
-[submodule "fzf/fzf.symlink"]
-	path = fzf/fzf.symlink
-	url = git@github.com:junegunn/fzf.git
-[submodule "python/zxcvbn-python"]
-	path = python/zxcvbn-python
-	url = git@github.com:whwright/zxcvbn-python.git
-[submodule "tmux/awesomewm.tmux.symlink"]
-	path = tmux/awesomewm.tmux.symlink
-	url = git@github.com:whwright/awesomewm.tmux.git
