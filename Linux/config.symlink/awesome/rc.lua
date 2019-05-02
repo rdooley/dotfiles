@@ -1,4 +1,5 @@
 -- Standard awesome library
+--  TODO update your awesome to something within the last 5 years when you upgrade os dummy
 require("awful")
 require("awful.autofocus")
 require("awful.rules")

@@ -13,8 +13,6 @@ bind-key -T copy-mode-vi y send-keys -X copy-pipe 'xclip -in -selection clipboar
 bind-key -T prefix R source-file ~/.tmux.conf \;\
     display-message "source-file done"
 
-source-file $HOME/.awesomewm.tmux/awesomewm.tmux
-
 # OS specific configs
 if-shell 'test "$(uname -s)" = "Linux"'  'source-file -q ~/.tmux-linux.conf'
 if-shell 'test "$(uname -s)" = "Darwin"' 'source-file -q ~/.tmux-darwin.conf'
